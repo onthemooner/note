@@ -45,7 +45,7 @@ grant select ,insert,update on db1.t1 to "alex"@'%';
 grant all privileges  on db1.t1 to "alex"@'%';
 
 -- mjj用户对db1数据库中的文件执行任何操作
-grant all privileges  on db1.* to "alex"@'%';
+grant all privileges  on db1.* to "alex"@'%'; 
 
 -- mjj用户对所有数据库中文件有任何操作
 grant all privileges  on *.*  to "alex"@'%';

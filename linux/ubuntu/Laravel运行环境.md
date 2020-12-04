@@ -59,7 +59,7 @@ sudo apt install mariadb-server mariadb-client -y
 ```
 安装完成后，运行MariaDB并使其在系统引导时启动。
 ```
-systemcl start mysql
+systemctl start mysql
 systemctl enable mysql
 ```
 MariaDB在端口3306上启动，使用netstat命令检查它。
